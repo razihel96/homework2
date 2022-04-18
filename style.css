@@ -8,6 +8,7 @@
 
 
 
+
 .header {
     border: 2px solid black;
     width: 100%;
@@ -36,10 +37,10 @@ img {
 
 
 /*RESEARCH*/
-.research h1 {
+#research h1 {
     text-align: center;
 }
-.research {
+#research {
     border: 4px solid black;
     border-radius: 30px;
     width: 100%;
@@ -47,21 +48,23 @@ img {
     margin-top: 50px;
 }
 
-.research:hover {
+
+
+#research:hover {
     color: red;
-    margin-bottom: 1120px;
 }
 
+/*
 .research:hover .research-testo {
     transition: .5s;
     visibility: visible;
-}
+}*/
 
-.research-testo {
-    border: 2px solid red;
+#research-testo {
     width: 100%;
-    visibility: hidden;
+    display: none;
     color: black;
+    padding-left: 100px;
 }
 
 
@@ -69,7 +72,10 @@ img {
 
 
 /*ATTIVITA*/
-.attività {
+#attività h1 {
+    text-align: center;
+}
+#attività {
     border: 4px solid black;
     border-radius: 30px;
     width: 100%;
@@ -79,23 +85,21 @@ img {
 }
 
 
-.attività-testo {
-    border: 2px solid red;
+#attività-testo {
     width: 100%;
-    visibility: hidden;
-
+    padding-left: 100px;
+    display: none;
 }
 
-.attività:hover {
+#attività h1:hover {
     color: red;
-    margin-bottom: 1440px;
 }
 
-.attività:hover .attività-testo {
+/*.attività:hover .attività-testo {
     transition: .5s;
     visibility: visible;
     color: black;
-}
+}*/
 
 .aa {
     border: 2px solid blue;
@@ -103,17 +107,14 @@ img {
 }
 
 .aa:hover {
-    color: red;
-    margin-bottom: 280px;
+    color: pink;
 }
 
-.aa:hover .testo {
+/*.aa:hover .testo {
     visibility: visible;
-}
+}*/
 
 .testo {
-    border: 2px solid green;
-    visibility: hidden;
 }
 
 
@@ -122,30 +123,34 @@ img {
 
 
 /*TESITIROCINIO*/
-.tesitirocinio {
+#tesitirocinio h1 {
+    text-align: center;
+}
+
+#tesitirocinio {
     border: 4px solid black;
     border-radius: 30px;
     width: 100%;
     height: 100px;
     margin-top: 10px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.tesitirocinio-testo {
-    border: 2px solid black;
+#tesitirocinio-testo {
     width: 100%;
-    visibility: hidden;
-
+    padding-left: 100px;
+    display: none;
 }
 
-.tesitirocinio:hover {
+#tesitirocinio h1:hover {
     color: red;
-    margin-bottom: 500px;
 }
 
+/*
 .tesitirocinio:hover .tesitirocinio-testo {
     transition: .5s;
     visibility: visible;
     color: black;
 
-}
+}*/
