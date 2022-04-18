@@ -1,0 +1,60 @@
+/*PARAMETRI FONDAMENTALI*/
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.info {
+    border: 2px solid black;
+    width: 100%;
+    height: 205px;
+    display: flex;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.research {
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.research-testo {
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+}
+
+.attività {
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.attività-testo {
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+}
+
+.tesitirocinio {
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.tesitirocinio-testo {
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+}
